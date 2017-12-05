@@ -23,7 +23,6 @@ public class Day3 {
 				upperBound -= odd;
 				upperBound += 1;
 			}
-			System.out.println(upperBound - (odd / 2));
 			if (input > upperBound - (odd / 2))
 				System.out.println(numStepsFromUpperBound - (upperBound - input));
 			else if (input < upperBound - (odd / 2))
